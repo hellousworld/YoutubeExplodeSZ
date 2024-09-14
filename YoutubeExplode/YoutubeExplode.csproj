@@ -10,6 +10,7 @@
   <PropertyGroup>
     <PackageIcon>favicon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>YoutubeExplodeSZ</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
