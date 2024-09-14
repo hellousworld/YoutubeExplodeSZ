@@ -338,7 +338,8 @@ internal partial class Converter
         {
             try
             {
-                //File.Delete(FilePath);
+                  if (!FilePath.Contains("subtitles-eng-") && !FilePath.Contains("subtitles-zho-"))
+                    File.Delete(FilePath);
             }
             catch
             {
