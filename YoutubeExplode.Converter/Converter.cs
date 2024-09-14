@@ -335,7 +335,7 @@ internal partial class Converter
         {
             try
             {
-                File.Delete(FilePath);
+                //File.Delete(FilePath);
             }
             catch
             {
