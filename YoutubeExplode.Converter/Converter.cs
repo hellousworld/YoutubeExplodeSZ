@@ -221,9 +221,12 @@ internal partial class Converter(VideoClient videoClient, FFmpeg ffmpeg, Convers
 
         foreach (var (trackInfo, trackProgress) in closedCaptionTrackInfos.Zip(progresses))
         {
+            var languageCode =  trackInfo.Language.TryGetThreeLetterCode()
+            ?? trackInfo.Language.Code;
+
             var subtitleInput = new SubtitleInput(
                 trackInfo,
-                $"{baseFilePath}.subtitles-{lastIndex++}.tmp"
+                $"{baseFilePath}.subtitles-{languageCode}-{lastIndex++}.txt"
             );
 
             subtitleInputs.Add(subtitleInput);
