@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/Tyrrrz/YoutubeExplode/tree/master/YoutubeExplode.Converter</PackageProjectUrl>
     <PackageIcon>favicon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageId>YoutubeExplodeZ.Converter</PackageId>
+    <PackageId>YoutubeExplodeSZ.Converter</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
